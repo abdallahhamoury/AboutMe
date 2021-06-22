@@ -21,6 +21,8 @@ float: left;
 
 header nav ul li {
 display: inline-block;
+margin-bottom: 100px;
+padding:20px ;
 }
 
 header nav {
@@ -46,6 +48,10 @@ header nav ul li a {
 .img1{
 display: inline-block;
 margin-left: 150px;
+}
+
+h1{
+  font-size: 17px;
 }
 
 footer{
@@ -83,13 +89,21 @@ display: inline-block;
 }
 
 #list{
+  text-decoration: rgb(134, 38, 38) underline;
   text-align: center;
-  padding: 25px;
-  border: 1px solid red;
+  padding: 40px;
+  border: 2px solid rgb(134, 38, 38);
   
 }
+
+li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
 h2{
+  text-shadow: 2px 2px 5px rgb(134, 38, 38);
+  text-decoration: overline;
   text-align: center;
   padding: 15px;
-  color:red ;
+  color:black ;
 }
