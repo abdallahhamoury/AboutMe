@@ -15,15 +15,15 @@ float: right;
 width: 30%;
 }
 ul {
-  list-style: circle;
+  list-style: decimal;
 
 }
 
-ol li {
+/* ol li {
 
  padding: 10px;
  display: inline-block;
-} 
+}  */
 
 header div {
 float: left;

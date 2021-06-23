@@ -2,7 +2,7 @@
 
 alert('HELLO')
 
-let userName = prompt('Wshts Your Name')
+let userName = prompt('whats Your Name')
 console.log(userName);
 alert("Welcome " + userName + " To My Website")
 document.write("Welcome " + userName + " To My Website")
@@ -153,13 +153,10 @@ alert(" lets have afun " + userName + " And  play a guessing game")
 
 
 
-
-
-
 let userO = 0;
 for (let i = 0; i < 4; i++) {
 
-    let guessU = Number(prompt("Choose a number from 1 to 10 to find out my favorite drink from the list"));
+    let guessU = Number(prompt("Choose a number from 1 to 10 to find out"));
 
     if (guessU == 3) {
         alert("You have guessed correctly");
@@ -183,21 +180,28 @@ if (userO == 4) {
 
 
 
-let drinksarray = ['Coffee', 'tea', 'water'];
 
-alert("guess the correct answer you have 6 chances");
-console.log("guess the correct answer you have 6 chances");
+let drinks = ['coffe', 'tea', 'water', 'milk'];
+let correct = false;
+for (let attempt = 1; attempt <= 6; attempt++) {
+    let q1 = prompt("whats my fav drinks??? ").toLowerCase();
 
-for (let i = 0; i < 6; i++) {
-    let guessdrinks = prompt("choose one of those('cofee','tea','water','iced tae','black coffee','frozen strwberry','apple juice','cooktail','latee')")
-    if (guessdrinks == drinksarray[0] || guessdrinks == drinksarray[1] || guessdrinks == drinksarray[2]) {
-        alert("amazing you got it")
-        console.log("amazing you got it")
-        userchances++;
-        break;
-    } else {
-        alert("tray again")
-        console.log("tray again")
+    for (let i = 0; i < drinks.length; i++) {
+        if (q1 == drinks[i]) {
+            alert('corret')
+            attempt = 10;
+            break;
+        }
+
     }
+ if (correct) {
+    break;
 }
+}
+
+
+
+
+
+
 
