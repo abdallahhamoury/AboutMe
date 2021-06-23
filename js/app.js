@@ -12,31 +12,25 @@ let grade = 0;
 let userAns = prompt('Mr/Ms ' + userName + ' Are you looking for help in your business plaese anser Y or N yes or No ').toUpperCase();
 
 
-<<<<<<< HEAD
-
-while (userAns != "Y" && userAns != "N" && userAns != "yes" && userAns != "No") {
-=======
-function abd(){
+function abd() {
     while (userAns != "Y" && userAns != "N" && userAns != "yes" && userAns != "No") {
 
-        userAns = prompt('plaese anser \'Y or N\' \'yes or No\' ');
->>>>>>> 0b95446ed4ddfc13c9ccd57f65fabf10e9d6519c
-
-    userAns = prompt('plaese anser \'Y or N\' \'yes or No\' ');
-
-}
+        userAns = prompt('plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
 
 
-if (userAns == "Y" || userAns == "N" || userAns == "yes" || userAns == "no") {
-    console.log('Greet');
-    alert('Greet');
-    grade++;
-}
-else {
-    userAns = prompt('plaese anser \'Y or N\' \'yes or No\' ');
-    console.log(userAns);
+    }
 
-}
+
+    if (userAns == "Y" || userAns == "N" || userAns == "yes" || userAns == "no") {
+        console.log('Greet');
+        alert('Greet');
+        grade++;
+    }
+    else {
+        userAns = prompt('plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
+        console.log(userAns);
+
+    }
 
 
 
@@ -50,87 +44,69 @@ else {
 let userAns1 = prompt('do you have your own business ' + userName + ' plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
 
 
-<<<<<<< HEAD
+function abd1() {
+    while (userAns1 != "Y" && userAns1 != "N" && userAns1 != "yes" && userAns1 != "No") {
 
-while (userAns1 != "Y" && userAns1 != "N" && userAns1 != "yes" && userAns1 != "No") {
-=======
-function abd1(){
-    while (userAns1 != "Y" && userAns1 != "N" && userAns1 != "yes" && userAns1 != "No" ) {
+        userAns1 = prompt('plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
 
-        userAns1 = prompt('plaese anser \'Y or N\' \'yes or No\' ');
->>>>>>> 0b95446ed4ddfc13c9ccd57f65fabf10e9d6519c
 
-    userAns1 = prompt('plaese anser \'Y or N\' \'yes or No\' ');
 
-}
+    }
 
-<<<<<<< HEAD
 
-if (userAns1 == "Y" || userAns1 == "N" || userAns1 == "yes" || userAns1 == "no") {
-    console.log('Dont Worry');
-    alert('dont worry');
-    grade++;
-}
-else {
-    userAns1 = prompt('plaese anser \'Y or N\' \'yes or No\' ');
-    console.log(userAns1);
-=======
-} abd1()
->>>>>>> 0b95446ed4ddfc13c9ccd57f65fabf10e9d6519c
+    if (userAns1 == "Y" || userAns1 == "N" || userAns1 == "yes" || userAns1 == "no") {
+        console.log('Dont Worry');
+        alert('dont worry');
+        grade++;
+    }
+    else {
+        userAns1 = prompt('plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
+        console.log(userAns1);
 
-}
-
+    }
+} abd1();
 
 
 
 
 function abd2() {
-    
-
-
-let userAns2 = prompt('Do you know anything about Abdallah?' + userName + ' plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
 
 
 
-while (userAns2 != "Y" && userAns2 != "N" && userAns2 != "yes" && userAns2 != "No") {
-
-    userAns1 = prompt('plaese anser \'Y or N\' \'yes or No\' ');
-
-}
-
-
-if (userAns2 == "Y" || userAns2 == "N" || userAns2 == "yes" || userAns2 == "no") {
-    console.log('you will know');
-    alert('you will know');
-    grade++;
-}
-else {
-    userAns2 = prompt('plaese anser \'Y or N\' \'yes or No\' ');
-    console.log(userAns2);
-
-<<<<<<< HEAD
-}
-
-=======
-    } abd2();
->>>>>>> 0b95446ed4ddfc13c9ccd57f65fabf10e9d6519c
+    let userAns2 = prompt('Do you know anything about Abdallah?' + userName + ' plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
 
 
 
+    while (userAns2 != "Y" && userAns2 != "N" && userAns2 != "yes" && userAns2 != "No") {
+
+        userAns1 = prompt('plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
+
+    }
 
 
-<<<<<<< HEAD
+    if (userAns2 == "Y" || userAns2 == "N" || userAns2 == "yes" || userAns2 == "no") {
+        console.log('you will know');
+        alert('you will know');
+        grade++;
+    }
+    else {
+        userAns2 = prompt('plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
+        console.log(userAns2);
+
+    }
+} abd2();
+
+
+
+function abd3() {
+
 let userAns3 = prompt('Have you ever deal with advertising agencies? mr/ms ' + userName + ' plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
 
-=======
-function abd3(){
-        while (userAns3 != "Y" && userAns3 != "N" && userAns3 != "yes" && userAns3 != "No" ) {
->>>>>>> 0b95446ed4ddfc13c9ccd57f65fabf10e9d6519c
 
 
 while (userAns3 != "Y" && userAns3 != "N" && userAns3 != "yes" && userAns3 != "No") {
 
-    userAns3 = prompt('plaese anser \'Y or N\' \'yes or No\' ');
+    userAns3 = prompt('plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
 
 }
 
@@ -141,33 +117,25 @@ if (userAns3 == "Y" || userAns3 == "N" || userAns3 == "yes" || userAns3 == "no")
     grade++;
 }
 else {
-    userAns3 = prompt('plaese anser \'Y or N\' \'yes or No\' ');
+    userAns3 = prompt('plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
     console.log(userAns3);
 
-<<<<<<< HEAD
 }
-
-=======
-    } abd3();
->>>>>>> 0b95446ed4ddfc13c9ccd57f65fabf10e9d6519c
+}abd3();
 
 
 
 
+function abd4(){
 let userAns4 = prompt('Have you ever dealt with advertising agencies? mr/ms ' + userName + ' plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
 
-<<<<<<< HEAD
 
-=======
-function abd4(){
           while (userAns4 != "Y" && userAns4 != "N" && userAns4 != "yes" && userAns4 != "No" ) {
->>>>>>> 0b95446ed4ddfc13c9ccd57f65fabf10e9d6519c
 
-while (userAns4 != "Y" && userAns4 != "N" && userAns4 != "yes" && userAns4 != "No") {
 
-    userAns4 = prompt('plaese anser \'Y or N\' \'yes or No\' ');
+    userAns4 = prompt('plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
 
-}
+          }
 
 
 if (userAns4 == "Y" || userAns4 == "N" || userAns4 == "yes" || userAns4 == "no") {
@@ -181,7 +149,8 @@ else {
 
 }
 
-        } abd4();
+        }abd4();
+      
 
 
 
