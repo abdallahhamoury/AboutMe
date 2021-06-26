@@ -12,7 +12,7 @@ let grade = 0;
 let userAns = prompt('Mr/Ms ' + userName + ' Are you looking for help in your business plaese anser Y or N yes or No ').toUpperCase();
 
 
-function abd() {
+function getAnswer() {
     while (userAns != "Y" && userAns != "N" && userAns != "yes" && userAns != "No") {
 
         userAns = prompt('plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
@@ -34,7 +34,7 @@ function abd() {
 
 
 
-} abd();
+} getAnswer();
 
 
 
@@ -44,7 +44,7 @@ function abd() {
 let userAns1 = prompt('do you have your own business ' + userName + ' plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
 
 
-function abd1() {
+function getAnswer1() {
     while (userAns1 != "Y" && userAns1 != "N" && userAns1 != "yes" && userAns1 != "No") {
 
         userAns1 = prompt('plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
@@ -64,12 +64,12 @@ function abd1() {
         console.log(userAns1);
 
     }
-} abd1();
+} getAnswer1();
 
 
 
 
-function abd2() {
+function getAnswer2() {
 
 
 
@@ -94,11 +94,11 @@ function abd2() {
         console.log(userAns2);
 
     }
-} abd2();
+} getAnswer2();
 
 
 
-function abd3() {
+function getAnswer3() {
 
 let userAns3 = prompt('Have you ever deal with advertising agencies? mr/ms ' + userName + ' plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
 
@@ -121,12 +121,12 @@ else {
     console.log(userAns3);
 
 }
-}abd3();
+}getAnswer3();
 
 
 
 
-function abd4(){
+function getAnswer4(){
 let userAns4 = prompt('Have you ever dealt with advertising agencies? mr/ms ' + userName + ' plaese anser \'Y or N\' \'yes or No\' ').toUpperCase();
 
 
@@ -149,7 +149,7 @@ else {
 
 }
 
-        }abd4();
+        }getAnswer4();
       
 
 
@@ -159,7 +159,7 @@ else {
 alert(" lets have afun " + userName + " And  play a guessing game")
 
 
-function abd5(){
+function getAnswerGuessing(){
 
 let userO = 0;
 for (let i = 0; i < 4; i++) {
@@ -172,7 +172,7 @@ for (let i = 0; i < 4; i++) {
         break;
 
     }
-    else if (guessU > 5) {
+    else if (guessU < 5) {
         alert("You guessing too low!")
         userO++;
 
@@ -185,14 +185,14 @@ for (let i = 0; i < 4; i++) {
 
 }
 if (userO == 4) {
-    alert("Game over, Good luck...")
+    alert("The Answer No. 3")
 }
 
 
- } abd5();
+ } getAnswerGuessing();
 
 
- function abd6(){
+ function getGuessingDrinks(){
 let drinks = ['coffe', 'tea', 'water', 'milk'];
 let correct = false;
 for (let attempt = 1; attempt <= 6; attempt++) {
@@ -201,7 +201,6 @@ for (let attempt = 1; attempt <= 6; attempt++) {
     for (let i = 0; i < drinks.length; i++) {
         if (q1 == drinks[i]) {
             alert('corret')
-            attempt = 10;
             grade++;
             break;
         }
@@ -212,8 +211,9 @@ for (let attempt = 1; attempt <= 6; attempt++) {
     }
 }
 
-} abd6();
+} getGuessingDrinks();
 
+alert('my Fav drinkscoffe, tea, water, milk')
 alert("your final score is " + grade + "/7")
 
 
